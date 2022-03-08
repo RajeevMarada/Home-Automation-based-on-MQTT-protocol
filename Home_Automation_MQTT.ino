@@ -7,12 +7,12 @@
 #include<Adafruit_MQTT_Client.h>  //Adafruit Client 
 #include<ESP8266WiFi.h> 
 WiFiClient esp; //Creating a wifi client
-#define ssid "Rajeev-2.4GHz"  //ssid of the WiFi network
-#define pass "latham36"       //password of the WiFi network
+#define ssid "Username"  //ssid of the WiFi network
+#define pass "Password"       //password of the WiFi network
 #define server "io.adafruit.com"  //Server of Adafruit
 #define port 1883 //Port
-#define username "Rajeev_Marada"  //Adafruit Username
-#define key "aio_uUfu15u6eyQOzssN33MaB62DMCEa"  //aio Key
+#define username "Adafruit_Username"  //Adafruit Username
+#define key "aio_uUfu15u6eyQOzssN33MaB62Dnbsw"  //aio Key
 #define relay 5
 Adafruit_MQTT_Client mqtt(&esp,server,port,username,key); //creating a server-client connection
 Adafruit_MQTT_Subscribe led(&mqtt,username"/feeds/switch-led"); //subscribing to access data from server
