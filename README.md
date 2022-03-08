@@ -3,3 +3,4 @@ This is a home automation project that utilizes the MQTT subscribe-publish proto
 Adafruit IO is the server database used in this project to implement the MQTT protocol.
 The central aggregator used in this project is the NodeMCU ESP8266 microcontroller.
 The AC bulb is connected in the Normally Open confirguration resulting in a "LOW" value completing the circuit and turning the light on and vice-versa.
+This project is also integrated with IFTTT(If This Then That) enabling the access of devices using Google Assistant
